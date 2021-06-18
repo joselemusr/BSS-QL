@@ -9,18 +9,18 @@ Work repository "Q-Learnheuristics: towards data-driven ambidextrous metaheurist
 [Graphics](https://drive.google.com/drive/folders/1-kS78-j46xKqI2g6m4lqyvDTyHhM-OLB?usp=sharing)
 
 
-## Instrucciones
+## Instructions
 
-#### 1) Crear Base de Datos PostgreSQL con la estructura de database/Table_DB_mh_resultados.sql
+#### 1) Create PostgreSQL Database with the structure of Database/Table_DB_mh_result_mh_result.sql
 
-#### 2) Actualizar .env con las credenciales correspondiente a la base de datos creada.
+#### 2) Update ".env" with the credentials corresponding to the created database.
 
-#### 3) Poblar base de datos con los experimentos a realizar en configure.py
+#### 3) Populate database with the experiments to be performed in "configure.py".
 ```
 python configure.py
 ```
 
-#### 4) Correr experimentos
+#### 4) Running experiments
 ```
 python main.py
 ```
