@@ -114,7 +114,7 @@ class Q_Learning():
 
     def updateQtable(self,metric,action,state,oldState,iter):
 
-        #revisar
+        
 
         Reward = self.getReward(metric)
         
@@ -124,7 +124,7 @@ class Q_Learning():
 
         self.actualizar_Visitas(action,oldState) #Actuzación de visitas
 
-        #REVISAR ESTO
+        
         self.Qvalues[state][action] = Qnuevo
 
     def getQtable(self):
